@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 #include <time.h>
 
 /* more headers goes there */
@@ -12,22 +12,22 @@ int main(void)
 
 	int n;
 
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 	printf("Please enter your number");
-		scanf("%d", n);
+	scanf("%d", n);
 	if (n > 0)
 	{
-		printf("The number is postive!\n");
+		print("The number is postive!\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("The number is zero\n");
+		printf("The number is zero\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("The number is negative\n");
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+		printf("The number is zero\n", n);
+	}
+											                                                 
 	return (0);
 }
