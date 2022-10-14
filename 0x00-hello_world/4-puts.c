@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-*Function
-* Main- Prints Programming is like building a multilingual puzzle
+* main - Entry point
+*
 * Return: Returns 0
 */
 
