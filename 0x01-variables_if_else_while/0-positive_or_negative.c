@@ -12,7 +12,7 @@ int main(void)
 
 	int n;
 
-	printf("Please enter your number")
+	printf("Please enter your number");
 		scanf("%d", n);
 	if (n > 0)
 	{
