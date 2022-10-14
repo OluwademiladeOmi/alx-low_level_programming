@@ -1,24 +1,22 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
+/*
+ * main - Entry point
+ *
+ * returns- returns 0
+ */
 
-/* more headers goes there */
 
-
-
-/* betty style doc for function main goes there */
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Please enter your number");
-	scanf("%d", n);
 	if (n > 0)
 	{
-		print("The number is postive!\n", n);
+		printf("The number is positive!\n", n);
 	}
 	else if (n == 0)
 	{
@@ -26,8 +24,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("The number is zero\n", n);
+		printf("The number is negative/n", n);
 	}
-											                                                 
 	return (0);
 }
