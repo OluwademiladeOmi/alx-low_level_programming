@@ -3,7 +3,7 @@
 #include <stdio.h>
 /*
  * main - Entry point
- *
+ * it executes and print if statements
  * returns- returns 0
  */
 
