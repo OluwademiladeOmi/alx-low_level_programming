@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
- * Main - Print with proper grammar, but the outcome is a piece of art
+/**
+ * main - Entry point
+ *
  * Return: Returns 0
  */
 int main(void)
