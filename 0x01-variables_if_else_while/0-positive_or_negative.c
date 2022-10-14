@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - Entry point
- * it executes and print if statements
+ *
  * returns- returns 0
  */
 
-
+/** main - Entry point to the code */
 int main(void)
 {
 	int n;
