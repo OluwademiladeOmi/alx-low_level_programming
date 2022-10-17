@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- * main- prints the random last digit
+ * main - prints the random last digit
  *
  * Return: returns 0
  */
