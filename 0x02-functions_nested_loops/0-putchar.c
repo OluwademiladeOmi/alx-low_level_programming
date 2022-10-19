@@ -8,7 +8,16 @@
 
 int main(void)
 {
-	_putchar('L');
+	char ch = 'a';
+
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_puthchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 	return (0);
